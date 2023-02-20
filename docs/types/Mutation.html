@@ -1,0 +1,2539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Magidoc" />
+    <meta
+      name="generator-url"
+      content="https://github.com/magidoc-org/magidoc"
+    />
+
+    <meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-14be03cc.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_commonjsHelpers-43b693e1.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ChevronDown-4e074f2b.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_page-e20843b5.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/PreviousNextPage-4a5fa1bb.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ArgsList-957ebbf5.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/DirectiveTag-771fbf22.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-6a74ef41.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths-76b32af6.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-5534ff05.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-6f067d1b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control-e7f5239e.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-920257ee.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_commonjsHelpers-eb089990.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ChevronDown-e01a67e0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/prism-json-106361a3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/model-974a85e8.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/pages-6b57c166.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Button-e23c0266.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-ea812e0b.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/types/_type_/_page.svelte-5f204ec1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/PreviousNextPage-22971146.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ArgsList-63b88c68.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DirectiveTag-e989fd12.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/types/_type_/_page.ts-291401d2.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-b40a4f3c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-adfb25b2.js"><title>Type - Mutation</title><!-- HEAD_svelte-w4mdaz_START --><meta name="keywords" content="graphql,api,documentation,Medium Article"><meta name="description" content="Medium Article's GraphQL documentation"><meta name="og:title" content="Medium Article"><meta name="og:type" content="article"><meta name="og:image" content="https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png"><meta name="og:site_name" content="Medium Article"><meta name="og:description" content="Medium Article's GraphQL documentation"><!-- HEAD_svelte-w4mdaz_END --><!-- HEAD_svelte-31uzcn_START --><!-- HEAD_svelte-31uzcn_END -->
+  </head>
+  <body>
+    <div style="display: contents">
+
+
+
+
+
+
+
+
+<header aria-label="" class="bx--header">
+  
+  <a href="/" class="bx--header__name">
+    <div slot="platform" class="header-logo-wrapper svelte-qat78g"><img src="https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png" alt="Magidoc"></div></a>
+  <div class="bx--header__global"><button type="button" label="Search" class="bx--header__action ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden><path d="M29,27.5859l-7.5521-7.5521a11.0177,11.0177,0,1,0-1.4141,1.4141L27.5859,29ZM4,13a9,9,0,1,1,9,9A9.01,9.01,0,0,1,4,13Z"></path></svg>
+  </button>
+    
+    </div></header>
+
+
+
+
+
+  <div style="false" class="bx--side-nav__overlay"></div>
+<nav aria-hidden class="bx--side-nav__navigation bx--side-nav bx--side-nav--ux  bx--side-nav--collapsed "><ul class="bx--side-nav__items"><li class="bx--side-nav__menu-item"><a href="/medium-article" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Medium Article</span></a></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Queries</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/queries/activeCustomerPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeCustomerPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/activeCustomerPricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeCustomerPricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/activeCustomerPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeCustomerPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/activeUserPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeUserPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/activeUserPricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeUserPricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/activeUserPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">activeUserPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/addressEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">addressEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/addressEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">addressEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/addressEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">addressEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/alaresEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">alaresEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/alaresEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">alaresEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/alaresEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">alaresEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/applicationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">applicationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/applicationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">applicationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/applicationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">applicationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbFileEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbFileEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbRecordEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbRecordEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbRecordEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbRecordEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/atbRecordEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">atbRecordEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntityUser" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntityUser</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntityUsers" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntityUsers</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntityUsersConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntityUsersConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/businessEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">businessEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countActiveCustomerPricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countActiveCustomerPricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countActiveCustomerPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countActiveCustomerPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countActiveUserPricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countActiveUserPricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countActiveUserPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countActiveUserPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAddressEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAddressEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAddressEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAddressEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAlaresEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAlaresEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAlaresEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAlaresEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countApplicationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countApplicationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countApplicationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countApplicationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbFileEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbFileEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbRecordEntityNewCustomers" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbRecordEntityNewCustomers</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbRecordEntityProcessingErrors" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbRecordEntityProcessingErrors</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbRecordEntityProcessingWarnings" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbRecordEntityProcessingWarnings</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbRecordEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbRecordEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countAtbRecordEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countAtbRecordEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countBusinessEntityUsers" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countBusinessEntityUsers</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countBusinessEntityUsersConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countBusinessEntityUsersConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countBusinessEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countBusinessEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countBusinessEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countBusinessEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countCreditBureauEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countCreditBureauEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countCreditBureauEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countCreditBureauEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countCustomerEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countCustomerEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countCustomerEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countCustomerEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countDiscountEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countDiscountEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countDiscountEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countDiscountEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countDocumentEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countDocumentEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countDocumentEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countDocumentEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countIndustryCodesEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countIndustryCodesEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countIndustryCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countIndustryCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countInvoiceEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countInvoiceEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countInvoiceEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countInvoiceEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countMonthlyExposurePricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countMonthlyExposurePricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countMonthlyExposurePricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countMonthlyExposurePricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOptionHowDidYouHearEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOptionHowDidYouHearEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOptionHowDidYouHearEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOptionHowDidYouHearEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOptionReferrerCharityEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOptionReferrerCharityEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOptionReferrerCharityEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOptionReferrerCharityEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOrganisationAuthorisedCreditBureaus" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOrganisationAuthorisedCreditBureaus</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOrganisationAuthorisedCreditBureausConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOrganisationAuthorisedCreditBureausConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOrganisationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOrganisationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countOrganisationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countOrganisationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countRegistrationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countRegistrationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countRegistrationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countRegistrationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countRegistrationFileEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countRegistrationFileEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countRegistrationFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countRegistrationFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countSpgEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countSpgEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countSpgEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countSpgEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countTrustEntityCodesEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countTrustEntityCodesEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countTrustEntityCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countTrustEntityCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countUserEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countUserEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/countUserEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">countUserEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/creditBureauEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">creditBureauEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/creditBureauEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">creditBureauEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/creditBureauEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">creditBureauEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/customerEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">customerEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/customerEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">customerEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/customerEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">customerEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/discountEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">discountEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/discountEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">discountEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/discountEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">discountEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/documentEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">documentEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/documentEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">documentEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/documentEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">documentEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/industryCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">industryCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/industryCodesEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">industryCodesEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/industryCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">industryCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/invoiceEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">invoiceEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/invoiceEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">invoiceEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/invoiceEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">invoiceEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/monthlyExposurePricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">monthlyExposurePricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/monthlyExposurePricingTierEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">monthlyExposurePricingTierEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/monthlyExposurePricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">monthlyExposurePricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionHowDidYouHearEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionHowDidYouHearEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionHowDidYouHearEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionHowDidYouHearEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionHowDidYouHearEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionHowDidYouHearEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionReferrerCharityEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionReferrerCharityEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionReferrerCharityEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionReferrerCharityEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/optionReferrerCharityEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">optionReferrerCharityEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationAuthorisedCreditBureau" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationAuthorisedCreditBureau</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationAuthorisedCreditBureaus" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationAuthorisedCreditBureaus</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationAuthorisedCreditBureausConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationAuthorisedCreditBureausConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/organisationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">organisationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationFileEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationFileEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/registrationFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">registrationFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/spgEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">spgEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/spgEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">spgEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/spgEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">spgEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/trustEntityCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">trustEntityCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/trustEntityCodesEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">trustEntityCodesEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/trustEntityCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">trustEntityCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/userEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">userEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/userEntitys" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">userEntitys</span></a></li><li class="bx--side-nav__menu-item"><a href="/queries/userEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">userEntitysConditional</span></a></li>
+        </ul></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Mutations</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/mutations/createActiveCustomerPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createActiveCustomerPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createActiveUserPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createActiveUserPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createAddressEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createAddressEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createAlaresEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createAlaresEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createApplicationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createApplicationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createAtbFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createAtbFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createAtbRecordEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createAtbRecordEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createBusinessEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createBusinessEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createBusinessEntityUser" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createBusinessEntityUser</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createCreditBureauEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createCreditBureauEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createCustomerEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createCustomerEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createDiscountEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createDiscountEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createDocumentEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createDocumentEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createIndustryCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createIndustryCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createInvoiceEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createInvoiceEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createMonthlyExposurePricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createMonthlyExposurePricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createOptionHowDidYouHearEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createOptionHowDidYouHearEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createOptionReferrerCharityEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createOptionReferrerCharityEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createOrganisationAuthorisedCreditBureau" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createOrganisationAuthorisedCreditBureau</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createOrganisationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createOrganisationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createRegistrationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createRegistrationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createRegistrationFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createRegistrationFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createSpgEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createSpgEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createTrustEntityCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createTrustEntityCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/createUserEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">createUserEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteActiveCustomerPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteActiveCustomerPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteActiveCustomerPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteActiveCustomerPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteActiveUserPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteActiveUserPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteActiveUserPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteActiveUserPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAddressEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAddressEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAddressEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAddressEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAlaresEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAlaresEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAlaresEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAlaresEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteApplicationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteApplicationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteApplicationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteApplicationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAtbFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAtbFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAtbFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAtbFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAtbRecordEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAtbRecordEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteAtbRecordEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteAtbRecordEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteBusinessEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteBusinessEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteBusinessEntityUser" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteBusinessEntityUser</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteBusinessEntityUsersConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteBusinessEntityUsersConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteBusinessEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteBusinessEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteCreditBureauEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteCreditBureauEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteCreditBureauEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteCreditBureauEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteCustomerEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteCustomerEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteCustomerEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteCustomerEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteDiscountEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteDiscountEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteDiscountEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteDiscountEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteDocumentEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteDocumentEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteDocumentEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteDocumentEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteIndustryCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteIndustryCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteIndustryCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteIndustryCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteInvoiceEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteInvoiceEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteInvoiceEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteInvoiceEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteMonthlyExposurePricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteMonthlyExposurePricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteMonthlyExposurePricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteMonthlyExposurePricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOptionHowDidYouHearEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOptionHowDidYouHearEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOptionHowDidYouHearEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOptionHowDidYouHearEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOptionReferrerCharityEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOptionReferrerCharityEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOptionReferrerCharityEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOptionReferrerCharityEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOrganisationAuthorisedCreditBureau" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOrganisationAuthorisedCreditBureau</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOrganisationAuthorisedCreditBureausConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOrganisationAuthorisedCreditBureausConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOrganisationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOrganisationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteOrganisationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteOrganisationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteRegistrationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteRegistrationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteRegistrationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteRegistrationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteRegistrationFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteRegistrationFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteRegistrationFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteRegistrationFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteSpgEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteSpgEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteSpgEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteSpgEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteTrustEntityCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteTrustEntityCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteTrustEntityCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteTrustEntityCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteUserEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteUserEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/deleteUserEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">deleteUserEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateActiveCustomerPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateActiveCustomerPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateActiveCustomerPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateActiveCustomerPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateActiveUserPricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateActiveUserPricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateActiveUserPricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateActiveUserPricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAddressEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAddressEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAddressEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAddressEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAlaresEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAlaresEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAlaresEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAlaresEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateApplicationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateApplicationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateApplicationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateApplicationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAtbFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAtbFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAtbFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAtbFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAtbRecordEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAtbRecordEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateAtbRecordEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateAtbRecordEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateBusinessEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateBusinessEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateBusinessEntityUser" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateBusinessEntityUser</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateBusinessEntityUsersConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateBusinessEntityUsersConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateBusinessEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateBusinessEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateCreditBureauEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateCreditBureauEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateCreditBureauEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateCreditBureauEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateCustomerEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateCustomerEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateCustomerEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateCustomerEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateDiscountEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateDiscountEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateDiscountEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateDiscountEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateDocumentEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateDocumentEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateDocumentEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateDocumentEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateIndustryCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateIndustryCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateIndustryCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateIndustryCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateInvoiceEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateInvoiceEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateInvoiceEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateInvoiceEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateMonthlyExposurePricingTierEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateMonthlyExposurePricingTierEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateMonthlyExposurePricingTierEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateMonthlyExposurePricingTierEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOptionHowDidYouHearEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOptionHowDidYouHearEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOptionHowDidYouHearEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOptionHowDidYouHearEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOptionReferrerCharityEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOptionReferrerCharityEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOptionReferrerCharityEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOptionReferrerCharityEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOrganisationAuthorisedCreditBureau" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOrganisationAuthorisedCreditBureau</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOrganisationAuthorisedCreditBureausConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOrganisationAuthorisedCreditBureausConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOrganisationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOrganisationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateOrganisationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateOrganisationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateRegistrationEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateRegistrationEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateRegistrationEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateRegistrationEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateRegistrationFileEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateRegistrationFileEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateRegistrationFileEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateRegistrationFileEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateSpgEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateSpgEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateSpgEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateSpgEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateTrustEntityCodesEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateTrustEntityCodesEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateTrustEntityCodesEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateTrustEntityCodesEntitysConditional</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateUserEntity" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateUserEntity</span></a></li><li class="bx--side-nav__menu-item"><a href="/mutations/updateUserEntitysConditional" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">updateUserEntitysConditional</span></a></li>
+        </ul></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Types</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/types/AccessQuery" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AccessQuery</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ActiveCustomerPricingTierEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ActiveCustomerPricingTierEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ActiveCustomerPricingTierEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ActiveCustomerPricingTierEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ActiveUserPricingTierEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ActiveUserPricingTierEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ActiveUserPricingTierEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ActiveUserPricingTierEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AddressEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AddressEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AddressEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AddressEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AlaresEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AlaresEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AlaresEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AlaresEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ApplicationEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ApplicationEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ApplicationEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ApplicationEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbFileEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbFileEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbFileEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbFileEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbFileType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbFileType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbJobStatus" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbJobStatus</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbProcessingStatus" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbProcessingStatus</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbRecordEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbRecordEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/AtbRecordEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">AtbRecordEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Boolean" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Boolean</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/BooleanObjectType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">BooleanObjectType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/BusinessEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">BusinessEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/BusinessEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">BusinessEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/BusinessEntityUserInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">BusinessEntityUserInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/BusinessEntityUserType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">BusinessEntityUserType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Comparison" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Comparison</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CreditBureauEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CreditBureauEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CreditBureauEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CreditBureauEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CustomerEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CustomerEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CustomerEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CustomerEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DateOnly" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DateOnly</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DateTime" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DateTime</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DeserializableBoolean" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DeserializableBoolean</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DeserializableDateTime" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DeserializableDateTime</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DeserializableFloat" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DeserializableFloat</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DeserializableInt" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DeserializableInt</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DiscountEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DiscountEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DiscountEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DiscountEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DiscountSource" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DiscountSource</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DocumentEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DocumentEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DocumentEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DocumentEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/HasConditionType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">HasConditionType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ID" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ID</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/IdObjectType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">IdObjectType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/IndustryCodesEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">IndustryCodesEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/IndustryCodesEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">IndustryCodesEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Int" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Int</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/InvoiceEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">InvoiceEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/InvoiceEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">InvoiceEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/MonthlyExposurePricingTierEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">MonthlyExposurePricingTierEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/MonthlyExposurePricingTierEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">MonthlyExposurePricingTierEntityType</span></a></li><li class="bx--side-nav__menu-item"><a aria-current="page" href="/types/Mutation" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Mutation</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/NumberObjectType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">NumberObjectType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OptionHowDidYouHearEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OptionHowDidYouHearEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OptionHowDidYouHearEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OptionHowDidYouHearEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OptionReferrerCharityEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OptionReferrerCharityEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OptionReferrerCharityEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OptionReferrerCharityEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OrderByGraph" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OrderByGraph</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OrganisationAuthorisedCreditBureauInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OrganisationAuthorisedCreditBureauInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OrganisationAuthorisedCreditBureauType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OrganisationAuthorisedCreditBureauType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OrganisationEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OrganisationEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/OrganisationEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">OrganisationEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ReferrerBenefitType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ReferrerBenefitType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ReferrerBusinessType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ReferrerBusinessType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ReferrerCommissionFrequency" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ReferrerCommissionFrequency</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RegistrationEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RegistrationEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RegistrationEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RegistrationEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RegistrationFileEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RegistrationFileEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RegistrationFileEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RegistrationFileEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RegistrationStatus" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RegistrationStatus</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RiskScore" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RiskScore</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/SpgEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">SpgEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/SpgEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">SpgEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/String" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">String</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/StringComparison" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">StringComparison</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/TrustEntityCodesEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">TrustEntityCodesEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/TrustEntityCodesEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">TrustEntityCodesEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/UserEntityCreateInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">UserEntityCreateInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/UserEntityInput" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">UserEntityInput</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/UserEntityType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">UserEntityType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/UserType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">UserType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/WhereExpressionGraph" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">WhereExpressionGraph</span></a></li>
+        </ul></li></ul></nav>
+
+<main id="main-content" style="margin-left: 0; undefined" class="bx--content"><div class="bx--grid"><div class="bx--row"><div class="bx--col">
+
+<section><div class="parent svelte-1jlumb"><h1 id="title" class="header header-base svelte-1jlumb">Mutation
+    
+<div id="ccs-0.9vxfun4wwee" class="bx--tag        bx--tag--teal      ">
+    <span>Object</span></div></h1>
+  
+</div>
+
+  
+
+  <div class="parent svelte-1jlumb"><h2 id="fields" class="header header-base svelte-1jlumb">Fields</h2>
+  <h2 class="header-base header-hashtag svelte-1jlumb"><a href="#fields" class="hashtag svelte-1jlumb">#</a></h2>
+</div>
+
+    
+<div role="table" class="bx--structured-list  bx--structured-list--condensed ">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createActiveCustomerPricingTierEntity</span>
+      
+<div id="ccs-0.3vkrczjju9q" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ActiveCustomerPricingTierEntityType" class="bx--link     ">ActiveCustomerPricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.alxvpmnbvcq" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createActiveUserPricingTierEntity</span>
+      
+<div id="ccs-0.yf48ky0e8f" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ActiveUserPricingTierEntityType" class="bx--link     ">ActiveUserPricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.jjluq2bxe2" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createAddressEntity</span>
+      
+<div id="ccs-0.clh2oqo69zk" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AddressEntityType" class="bx--link     ">AddressEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.cbfuhqys2yi" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createAlaresEntity</span>
+      
+<div id="ccs-0.4h5sscty49w" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AlaresEntityType" class="bx--link     ">AlaresEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.dnq3su1hkud" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createApplicationEntity</span>
+      
+<div id="ccs-0.4xr83rqawfq" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ApplicationEntityType" class="bx--link     ">ApplicationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.06nekn2z4imu" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createAtbFileEntity</span>
+      
+<div id="ccs-0.6d4njbc3ew" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AtbFileEntityType" class="bx--link     ">AtbFileEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.dkmeajbpqmp" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createAtbRecordEntity</span>
+      
+<div id="ccs-0.tqsdh5fxzme" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AtbRecordEntityType" class="bx--link     ">AtbRecordEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.b4g1tz8igzi" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createBusinessEntity</span>
+      
+<div id="ccs-0.n0pnsvw7op" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/BusinessEntityType" class="bx--link     ">BusinessEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.md5keof1jc" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createBusinessEntityUser</span>
+      
+<div id="ccs-0.jzk9cexty3l" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/BusinessEntityUserType" class="bx--link     ">BusinessEntityUserType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.iabym8ti7xe" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createCreditBureauEntity</span>
+      
+<div id="ccs-0.q7u26800mfh" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/CreditBureauEntityType" class="bx--link     ">CreditBureauEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.bj0xqk9aref" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createCustomerEntity</span>
+      
+<div id="ccs-0.ttzaimfvya" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/CustomerEntityType" class="bx--link     ">CustomerEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.uuza83sb1vs" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createDiscountEntity</span>
+      
+<div id="ccs-0.svafplqacj" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/DiscountEntityType" class="bx--link     ">DiscountEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.m9q3lzjyua" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createDocumentEntity</span>
+      
+<div id="ccs-0.xdd50ncpma" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/DocumentEntityType" class="bx--link     ">DocumentEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.zkrqg8e9v5b" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createIndustryCodesEntity</span>
+      
+<div id="ccs-0.df8b0hm33nu" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IndustryCodesEntityType" class="bx--link     ">IndustryCodesEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.udpjlp9tb4k" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createInvoiceEntity</span>
+      
+<div id="ccs-0.n9q4cqkuywe" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/InvoiceEntityType" class="bx--link     ">InvoiceEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.s8frp50bq2" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createMonthlyExposurePricingTierEntity</span>
+      
+<div id="ccs-0.pnpmzkhyvw" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/MonthlyExposurePricingTierEntityType" class="bx--link     ">MonthlyExposurePricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.xr4jp26gdhq" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createOptionHowDidYouHearEntity</span>
+      
+<div id="ccs-0.3kyo6lj0jzm" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OptionHowDidYouHearEntityType" class="bx--link     ">OptionHowDidYouHearEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ojvpulvlkpe" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createOptionReferrerCharityEntity</span>
+      
+<div id="ccs-0.gc3ylyp0a0i" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OptionReferrerCharityEntityType" class="bx--link     ">OptionReferrerCharityEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.9hv4fkvyk2e" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createOrganisationAuthorisedCreditBureau</span>
+      
+<div id="ccs-0.kx4q015903n" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OrganisationAuthorisedCreditBureauType" class="bx--link     ">OrganisationAuthorisedCreditBureauType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.pzrkblvqr3j" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createOrganisationEntity</span>
+      
+<div id="ccs-0.yblthm2uv2q" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OrganisationEntityType" class="bx--link     ">OrganisationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.9jan0lhs7xj" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createRegistrationEntity</span>
+      
+<div id="ccs-0.ssfmhbxxna" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/RegistrationEntityType" class="bx--link     ">RegistrationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.fxb0teb71tn" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createRegistrationFileEntity</span>
+      
+<div id="ccs-0.yy0ojbiugu" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/RegistrationFileEntityType" class="bx--link     ">RegistrationFileEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.nkd647nfpan" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createSpgEntity</span>
+      
+<div id="ccs-0.nonbxlku75" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/SpgEntityType" class="bx--link     ">SpgEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.yf5h3losvn" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createTrustEntityCodesEntity</span>
+      
+<div id="ccs-0.u86w5cep76" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/TrustEntityCodesEntityType" class="bx--link     ">TrustEntityCodesEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ssfldbpb7m" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">createUserEntity</span>
+      
+<div id="ccs-0.h3mtrn2mq7i" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/UserEntityType" class="bx--link     ">UserEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ddodnwncjlj" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (2)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteActiveCustomerPricingTierEntity</span>
+      
+<div id="ccs-0.pdpwq36oe1" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.y7dkcvck2ar" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteActiveCustomerPricingTierEntitysConditional</span>
+      
+<div id="ccs-0.dru87o8yn4" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteActiveUserPricingTierEntity</span>
+      
+<div id="ccs-0.kculfg2q51q" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.38j5x2d96i" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteActiveUserPricingTierEntitysConditional</span>
+      
+<div id="ccs-0.wmcygxp94ap" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAddressEntity</span>
+      
+<div id="ccs-0.expw4c199i5" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.08z2tsi1d5ba" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAddressEntitysConditional</span>
+      
+<div id="ccs-0.7233oax35wq" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAlaresEntity</span>
+      
+<div id="ccs-0.qcpyh91dl5o" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.p02qie47ros" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAlaresEntitysConditional</span>
+      
+<div id="ccs-0.0at90f2ye4qm" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteApplicationEntity</span>
+      
+<div id="ccs-0.0q93im7fu29g" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.uqujonw539q" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteApplicationEntitysConditional</span>
+      
+<div id="ccs-0.aha678l9gcj" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAtbFileEntity</span>
+      
+<div id="ccs-0.dzzihcapk2" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.5t1myuga1td" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAtbFileEntitysConditional</span>
+      
+<div id="ccs-0.qeblp9fa0dr" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAtbRecordEntity</span>
+      
+<div id="ccs-0.sxbxf1s6gn" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.h1pc2vup9f7" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteAtbRecordEntitysConditional</span>
+      
+<div id="ccs-0.ri23w1483a" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteBusinessEntity</span>
+      
+<div id="ccs-0.7bw5nghi1pw" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.0jk2ku3fzds9" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteBusinessEntityUser</span>
+      
+<div id="ccs-0.t36qwc466l9" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.bb8lzuys32f" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteBusinessEntityUsersConditional</span>
+      
+<div id="ccs-0.hjpar64oskl" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteBusinessEntitysConditional</span>
+      
+<div id="ccs-0.e8ldgv0zhti" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteCreditBureauEntity</span>
+      
+<div id="ccs-0.fb7202co9ae" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ukijtfjcska" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteCreditBureauEntitysConditional</span>
+      
+<div id="ccs-0.kymnadiaknp" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteCustomerEntity</span>
+      
+<div id="ccs-0.s3u3xt1nj0q" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.60vlb5mz91m" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteCustomerEntitysConditional</span>
+      
+<div id="ccs-0.t9e9ts5igr9" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteDiscountEntity</span>
+      
+<div id="ccs-0.tzsjln07a3g" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.7e5ao94tehr" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteDiscountEntitysConditional</span>
+      
+<div id="ccs-0.k99fgzgy5s" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteDocumentEntity</span>
+      
+<div id="ccs-0.7qdxfus90nc" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.b1walkbgrd6" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteDocumentEntitysConditional</span>
+      
+<div id="ccs-0.yphbihgekpl" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteIndustryCodesEntity</span>
+      
+<div id="ccs-0.rrh424wkyd8" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.sg0p177h9zg" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteIndustryCodesEntitysConditional</span>
+      
+<div id="ccs-0.gk8jfl1qsur" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteInvoiceEntity</span>
+      
+<div id="ccs-0.1qseir79m5v" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.no6v8h63i5" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteInvoiceEntitysConditional</span>
+      
+<div id="ccs-0.fqemhorg9kn" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteMonthlyExposurePricingTierEntity</span>
+      
+<div id="ccs-0.v7can2gwgw" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.25znjr5lae9" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteMonthlyExposurePricingTierEntitysConditional</span>
+      
+<div id="ccs-0.nmkjecu3oi" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOptionHowDidYouHearEntity</span>
+      
+<div id="ccs-0.tencjrt6zwe" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.bhzrz815e1p" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOptionHowDidYouHearEntitysConditional</span>
+      
+<div id="ccs-0.pqo8dywo7pp" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOptionReferrerCharityEntity</span>
+      
+<div id="ccs-0.h33p1ck289" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.v20zv7s7zs" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOptionReferrerCharityEntitysConditional</span>
+      
+<div id="ccs-0.g69ao5fpgce" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOrganisationAuthorisedCreditBureau</span>
+      
+<div id="ccs-0.jk4k2jhmxc" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ybleigukt9" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOrganisationAuthorisedCreditBureausConditional</span>
+      
+<div id="ccs-0.dewc3adqxnk" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOrganisationEntity</span>
+      
+<div id="ccs-0.so33wlggqis" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.4e3rtclcgsq" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteOrganisationEntitysConditional</span>
+      
+<div id="ccs-0.fsos72watua" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteRegistrationEntity</span>
+      
+<div id="ccs-0.my8y3zco4d8" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.e3i1de2lqho" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteRegistrationEntitysConditional</span>
+      
+<div id="ccs-0.5sw2xf22wiq" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteRegistrationFileEntity</span>
+      
+<div id="ccs-0.6rp7pzdqa6m" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.4cp21wml1e1" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteRegistrationFileEntitysConditional</span>
+      
+<div id="ccs-0.pwhsyzaru8" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteSpgEntity</span>
+      
+<div id="ccs-0.79weqs0c1w4" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.iyvx06q9cgr" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteSpgEntitysConditional</span>
+      
+<div id="ccs-0.o9sv2wy4ql" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteTrustEntityCodesEntity</span>
+      
+<div id="ccs-0.2olsgeeben8" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ck9mvf60yk9" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteTrustEntityCodesEntitysConditional</span>
+      
+<div id="ccs-0.10i20kkv658" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteUserEntity</span>
+      
+<div id="ccs-0.9r56p5ag7xw" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IdObjectType" class="bx--link     ">IdObjectType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.f48jykl98nc" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (1)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">deleteUserEntitysConditional</span>
+      
+<div id="ccs-0.1945kqxarwt" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateActiveCustomerPricingTierEntity</span>
+      
+<div id="ccs-0.lr0ejm552x" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ActiveCustomerPricingTierEntityType" class="bx--link     ">ActiveCustomerPricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.zcr1p5rgyad" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateActiveCustomerPricingTierEntitysConditional</span>
+      
+<div id="ccs-0.mh8k317p8d" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateActiveUserPricingTierEntity</span>
+      
+<div id="ccs-0.w5z1jja9xoe" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ActiveUserPricingTierEntityType" class="bx--link     ">ActiveUserPricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.jacncbocm1g" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateActiveUserPricingTierEntitysConditional</span>
+      
+<div id="ccs-0.busxpsgm8mv" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAddressEntity</span>
+      
+<div id="ccs-0.rdk4uew3pn" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AddressEntityType" class="bx--link     ">AddressEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.oe46m3owcip" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAddressEntitysConditional</span>
+      
+<div id="ccs-0.lcf6f12v3h9" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAlaresEntity</span>
+      
+<div id="ccs-0.7vf8aq2yp8h" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AlaresEntityType" class="bx--link     ">AlaresEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.f51uocfgjsj" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAlaresEntitysConditional</span>
+      
+<div id="ccs-0.yhlalnrjfld" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateApplicationEntity</span>
+      
+<div id="ccs-0.er5f6ueapc" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/ApplicationEntityType" class="bx--link     ">ApplicationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.dt3umv1mgzh" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateApplicationEntitysConditional</span>
+      
+<div id="ccs-0.xiqo3t6tbbs" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAtbFileEntity</span>
+      
+<div id="ccs-0.25s396twxpr" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AtbFileEntityType" class="bx--link     ">AtbFileEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.27tx061x6dg" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAtbFileEntitysConditional</span>
+      
+<div id="ccs-0.8mcjajvc594" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAtbRecordEntity</span>
+      
+<div id="ccs-0.44ph09ngppj" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/AtbRecordEntityType" class="bx--link     ">AtbRecordEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.ddn0q45idzd" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateAtbRecordEntitysConditional</span>
+      
+<div id="ccs-0.6clf8ba07rx" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateBusinessEntity</span>
+      
+<div id="ccs-0.7dth7k7and" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/BusinessEntityType" class="bx--link     ">BusinessEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.z934fr10bka" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateBusinessEntityUser</span>
+      
+<div id="ccs-0.1fu2isvqndph" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/BusinessEntityUserType" class="bx--link     ">BusinessEntityUserType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.5taub7tnqjo" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateBusinessEntityUsersConditional</span>
+      
+<div id="ccs-0.wluj00t52p" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateBusinessEntitysConditional</span>
+      
+<div id="ccs-0.4sh7i13ji4y" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateCreditBureauEntity</span>
+      
+<div id="ccs-0.qqxk1ik9c5" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/CreditBureauEntityType" class="bx--link     ">CreditBureauEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.c854iz3l42e" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateCreditBureauEntitysConditional</span>
+      
+<div id="ccs-0.i5zkfohnn7f" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateCustomerEntity</span>
+      
+<div id="ccs-0.rit4b509f5e" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/CustomerEntityType" class="bx--link     ">CustomerEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.tiiz1hbzjm8" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateCustomerEntitysConditional</span>
+      
+<div id="ccs-0.1v7ngy44sr1" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateDiscountEntity</span>
+      
+<div id="ccs-0.z5vkzyqjxdd" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/DiscountEntityType" class="bx--link     ">DiscountEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.o23e9lugsde" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateDiscountEntitysConditional</span>
+      
+<div id="ccs-0.3x4k5b1m3re" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateDocumentEntity</span>
+      
+<div id="ccs-0.s2t681lnsqm" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/DocumentEntityType" class="bx--link     ">DocumentEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.rozzd0wlnq" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateDocumentEntitysConditional</span>
+      
+<div id="ccs-0.ec1r0435rz9" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateIndustryCodesEntity</span>
+      
+<div id="ccs-0.sp5uorz82ma" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/IndustryCodesEntityType" class="bx--link     ">IndustryCodesEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.nlindiyfd2q" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateIndustryCodesEntitysConditional</span>
+      
+<div id="ccs-0.1jrszzo6hfij" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateInvoiceEntity</span>
+      
+<div id="ccs-0.lekrtd5fky" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/InvoiceEntityType" class="bx--link     ">InvoiceEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.3dz2792xoqk" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateInvoiceEntitysConditional</span>
+      
+<div id="ccs-0.0vzegf11dr2c" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateMonthlyExposurePricingTierEntity</span>
+      
+<div id="ccs-0.xgdsgys713p" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/MonthlyExposurePricingTierEntityType" class="bx--link     ">MonthlyExposurePricingTierEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.pl1wswwf849" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateMonthlyExposurePricingTierEntitysConditional</span>
+      
+<div id="ccs-0.j0yt0ctnvuj" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOptionHowDidYouHearEntity</span>
+      
+<div id="ccs-0.qy3qc6c8s2" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OptionHowDidYouHearEntityType" class="bx--link     ">OptionHowDidYouHearEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.lyekvwhyt4" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOptionHowDidYouHearEntitysConditional</span>
+      
+<div id="ccs-0.vksw8yukob" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOptionReferrerCharityEntity</span>
+      
+<div id="ccs-0.aioq6h2akt" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OptionReferrerCharityEntityType" class="bx--link     ">OptionReferrerCharityEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.uqqa0ypknue" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOptionReferrerCharityEntitysConditional</span>
+      
+<div id="ccs-0.yfc3g8senaf" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOrganisationAuthorisedCreditBureau</span>
+      
+<div id="ccs-0.vygm80haac" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OrganisationAuthorisedCreditBureauType" class="bx--link     ">OrganisationAuthorisedCreditBureauType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.fvyjj390rts" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOrganisationAuthorisedCreditBureausConditional</span>
+      
+<div id="ccs-0.nj7nu3y2eoi" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOrganisationEntity</span>
+      
+<div id="ccs-0.q03r0m1mhp8" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/OrganisationEntityType" class="bx--link     ">OrganisationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.2chopqp4xqn" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateOrganisationEntitysConditional</span>
+      
+<div id="ccs-0.e92340k0z0b" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateRegistrationEntity</span>
+      
+<div id="ccs-0.smjlq3moky9" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/RegistrationEntityType" class="bx--link     ">RegistrationEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.c7gjkba3hxu" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateRegistrationEntitysConditional</span>
+      
+<div id="ccs-0.tgnjg4kd31" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateRegistrationFileEntity</span>
+      
+<div id="ccs-0.9c9lonaiswt" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/RegistrationFileEntityType" class="bx--link     ">RegistrationFileEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.9ecbq7nieok" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateRegistrationFileEntitysConditional</span>
+      
+<div id="ccs-0.lwuf75fzzzn" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateSpgEntity</span>
+      
+<div id="ccs-0.634twjj8yca" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/SpgEntityType" class="bx--link     ">SpgEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.dlb9el166ue" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateSpgEntitysConditional</span>
+      
+<div id="ccs-0.rtj0o8tfmd" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateTrustEntityCodesEntity</span>
+      
+<div id="ccs-0.24hi4v87ddt" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/TrustEntityCodesEntityType" class="bx--link     ">TrustEntityCodesEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.r5ye44848w" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateTrustEntityCodesEntitysConditional</span>
+      
+<div id="ccs-0.p5yz6jpfyo" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateUserEntity</span>
+      
+<div id="ccs-0.mngqr43egg" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/UserEntityType" class="bx--link     ">UserEntityType
+    </a>!]!</span></div>
+      
+      
+<div id="ccs-0.h35ko7fxch6" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div>
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (3)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">updateUserEntitysConditional</span>
+      
+<div id="ccs-0.vga9p64tv69" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/BooleanObjectType" class="bx--link     ">BooleanObjectType
+    </a></span></div>
+      
+      
+      </p>
+
+    
+
+    
+      <div class="button-wrapper svelte-8qz4j">
+<button type="button" tabindex="0" style="border-radius: 20px" class="bx--btn bx--btn--sm bx--btn--sm bx--btn--ghost">
+    Show arguments (5)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button>
+</div></div></div></div></div>
+
+  </section>
+
+
+
+<hr class="footer-hr svelte-19tre3a">
+
+<div class="wrapper svelte-19tre3a"><div class="previous direction-wrapper svelte-19tre3a"><div class="direction svelte-19tre3a"><strong>Previous
+
+          </strong></div>
+      <a href="/types/MonthlyExposurePricingTierEntityType" class="title svelte-19tre3a"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden class="previous-next-arrow"><path d="M14 26L15.41 24.59 7.83 17 28 17 28 15 7.83 15 15.41 7.41 14 6 4 16 14 26z"></path></svg></span>
+        <p>MonthlyExposurePricingTierEntityType</p></a></div>
+
+  <div class="next direction-wrapper svelte-19tre3a"><div class="direction svelte-19tre3a"><strong>Next
+          </strong></div>
+      <a href="/types/NumberObjectType" class="title svelte-19tre3a"><p>NumberObjectType</p>
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden class="previous-next-arrow"><path d="M18 6L16.57 7.393 24.15 15 4 15 4 17 24.15 17 16.57 24.573 18 26 28 16 18 6z"></path></svg></span></a></div>
+</div></div></div></div></main>
+
+
+		<script type="module" data-sveltekit-hydrate="1s08yos">
+			import { start } from "../_app/immutable/start-6a74ef41.js";
+
+			start({
+				assets: "",
+				env: {},
+				target: document.querySelector('[data-sveltekit-hydrate="1s08yos"]').parentNode,
+				version: "1676855543815",
+				hydrate: {
+					node_ids: [0, 8],
+					data: [null,null],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</div>
+  </body>
+</html>
