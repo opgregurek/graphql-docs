@@ -1,0 +1,2134 @@
+﻿# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+	query: AccessQuery
+	mutation: Mutation
+}
+
+type AccessQuery {
+	"Query for fetching a single ActiveCustomerPricingTierEntity"
+	activeCustomerPricingTierEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): ActiveCustomerPricingTierEntityType
+	"Query for fetching multiple ActiveCustomerPricingTierEntitys"
+	activeCustomerPricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ActiveCustomerPricingTierEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	activeCustomerPricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ActiveCustomerPricingTierEntityType!]!
+	"Query for fetching a single ActiveUserPricingTierEntity"
+	activeUserPricingTierEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): ActiveUserPricingTierEntityType
+	"Query for fetching multiple ActiveUserPricingTierEntitys"
+	activeUserPricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ActiveUserPricingTierEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	activeUserPricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ActiveUserPricingTierEntityType!]!
+	"Query for fetching a single AddressEntity"
+	addressEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): AddressEntityType
+	"Query for fetching multiple AddressEntitys"
+	addressEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AddressEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	addressEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AddressEntityType!]!
+	"Query for fetching a single AlaresEntity"
+	alaresEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): AlaresEntityType
+	"Query for fetching multiple AlaresEntitys"
+	alaresEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AlaresEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	alaresEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AlaresEntityType!]!
+	"Query for fetching a single ApplicationEntity"
+	applicationEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): ApplicationEntityType
+	"Query for fetching multiple ApplicationEntitys"
+	applicationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ApplicationEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	applicationEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ApplicationEntityType!]!
+	"Query for fetching a single AtbFileEntity"
+	atbFileEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): AtbFileEntityType
+	"Query for fetching multiple AtbFileEntitys"
+	atbFileEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbFileEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	atbFileEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbFileEntityType!]!
+	"Query for fetching a single AtbRecordEntity"
+	atbRecordEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): AtbRecordEntityType
+	"Query for fetching multiple AtbRecordEntitys"
+	atbRecordEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbRecordEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	atbRecordEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbRecordEntityType!]!
+	"Query for fetching a single BusinessEntity"
+	businessEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): BusinessEntityType
+	"Query for fetching a single BusinessEntityUser"
+	businessEntityUser(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): BusinessEntityUserType
+	"Query for fetching multiple BusinessEntityUsers"
+	businessEntityUsers(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityUserType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	businessEntityUsersConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityUserType!]!
+	"Query for fetching multiple BusinessEntitys"
+	businessEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	businessEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityType!]!
+	"Counts the number of models according to a given set of conditions"
+	countActiveCustomerPricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countActiveCustomerPricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countActiveUserPricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countActiveUserPricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAddressEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAddressEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAlaresEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAlaresEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countApplicationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countApplicationEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAtbFileEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAtbFileEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of AtbRecordEntitys marked for new customer according to a given set of conditions"
+	countAtbRecordEntityNewCustomers(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of processing errors on AtbRecordEntitys according to a given set of conditions"
+	countAtbRecordEntityProcessingErrors(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of processing warnings on AtbRecordEntitys according to a given set of conditions"
+	countAtbRecordEntityProcessingWarnings(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAtbRecordEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countAtbRecordEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countBusinessEntityUsers(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countBusinessEntityUsersConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countBusinessEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countBusinessEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countCreditBureauEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countCreditBureauEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countCustomerEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countCustomerEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countDiscountEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countDiscountEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countDocumentEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countDocumentEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countIndustryCodesEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countIndustryCodesEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countInvoiceEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countInvoiceEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countMonthlyExposurePricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countMonthlyExposurePricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOptionHowDidYouHearEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOptionHowDidYouHearEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOptionReferrerCharityEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOptionReferrerCharityEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOrganisationAuthorisedCreditBureaus(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOrganisationAuthorisedCreditBureausConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOrganisationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countOrganisationEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countRegistrationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countRegistrationEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countRegistrationFileEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countRegistrationFileEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countSpgEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countSpgEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countTrustEntityCodesEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countTrustEntityCodesEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countUserEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Counts the number of models according to a given set of conditions"
+	countUserEntitysConditional(conditions: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], where: [WhereExpressionGraph]): NumberObjectType
+	"Query for fetching a single CreditBureauEntity"
+	creditBureauEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): CreditBureauEntityType
+	"Query for fetching multiple CreditBureauEntitys"
+	creditBureauEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CreditBureauEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	creditBureauEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CreditBureauEntityType!]!
+	"Query for fetching a single CustomerEntity"
+	customerEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): CustomerEntityType
+	"Query for fetching multiple CustomerEntitys"
+	customerEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CustomerEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	customerEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CustomerEntityType!]!
+	"Query for fetching a single DiscountEntity"
+	discountEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): DiscountEntityType
+	"Query for fetching multiple DiscountEntitys"
+	discountEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [DiscountEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	discountEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [DiscountEntityType!]!
+	"Query for fetching a single DocumentEntity"
+	documentEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): DocumentEntityType
+	"Query for fetching multiple DocumentEntitys"
+	documentEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [DocumentEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	documentEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [DocumentEntityType!]!
+	"Query for fetching a single IndustryCodesEntity"
+	industryCodesEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): IndustryCodesEntityType
+	"Query for fetching multiple IndustryCodesEntitys"
+	industryCodesEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [IndustryCodesEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	industryCodesEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [IndustryCodesEntityType!]!
+	"Query for fetching a single InvoiceEntity"
+	invoiceEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): InvoiceEntityType
+	"Query for fetching multiple InvoiceEntitys"
+	invoiceEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [InvoiceEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	invoiceEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [InvoiceEntityType!]!
+	"Query for fetching a single MonthlyExposurePricingTierEntity"
+	monthlyExposurePricingTierEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): MonthlyExposurePricingTierEntityType
+	"Query for fetching multiple MonthlyExposurePricingTierEntitys"
+	monthlyExposurePricingTierEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [MonthlyExposurePricingTierEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	monthlyExposurePricingTierEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [MonthlyExposurePricingTierEntityType!]!
+	"Query for fetching a single OptionHowDidYouHearEntity"
+	optionHowDidYouHearEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): OptionHowDidYouHearEntityType
+	"Query for fetching multiple OptionHowDidYouHearEntitys"
+	optionHowDidYouHearEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OptionHowDidYouHearEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	optionHowDidYouHearEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OptionHowDidYouHearEntityType!]!
+	"Query for fetching a single OptionReferrerCharityEntity"
+	optionReferrerCharityEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): OptionReferrerCharityEntityType
+	"Query for fetching multiple OptionReferrerCharityEntitys"
+	optionReferrerCharityEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OptionReferrerCharityEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	optionReferrerCharityEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OptionReferrerCharityEntityType!]!
+	"Query for fetching a single OrganisationAuthorisedCreditBureau"
+	organisationAuthorisedCreditBureau(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): OrganisationAuthorisedCreditBureauType
+	"Query for fetching multiple OrganisationAuthorisedCreditBureaus"
+	organisationAuthorisedCreditBureaus(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationAuthorisedCreditBureauType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	organisationAuthorisedCreditBureausConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationAuthorisedCreditBureauType!]!
+	"Query for fetching a single OrganisationEntity"
+	organisationEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): OrganisationEntityType
+	"Query for fetching multiple OrganisationEntitys"
+	organisationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	organisationEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationEntityType!]!
+	"Query for fetching a single RegistrationEntity"
+	registrationEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): RegistrationEntityType
+	"Query for fetching multiple RegistrationEntitys"
+	registrationEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	registrationEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationEntityType!]!
+	"Query for fetching a single RegistrationFileEntity"
+	registrationFileEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): RegistrationFileEntityType
+	"Query for fetching multiple RegistrationFileEntitys"
+	registrationFileEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationFileEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	registrationFileEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationFileEntityType!]!
+	"Query for fetching a single SpgEntity"
+	spgEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): SpgEntityType
+	"Query for fetching multiple SpgEntitys"
+	spgEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [SpgEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	spgEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [SpgEntityType!]!
+	"Query for fetching a single TrustEntityCodesEntity"
+	trustEntityCodesEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): TrustEntityCodesEntityType
+	"Query for fetching multiple TrustEntityCodesEntitys"
+	trustEntityCodesEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [TrustEntityCodesEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	trustEntityCodesEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [TrustEntityCodesEntityType!]!
+	"Query for fetching a single UserEntity"
+	userEntity(conditions: [[WhereExpressionGraph]], id: ID, ids: [ID], where: [WhereExpressionGraph]): UserEntityType
+	"Query for fetching multiple UserEntitys"
+	userEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [UserEntityType!]!
+	"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+	userEntitysConditional(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [UserEntityType!]!
+}
+
+"Active Customer Pricing Tier"
+type ActiveCustomerPricingTierEntityType {
+	"Approve Price"
+	approvePrice: DeserializableInt
+	created: DateTime!
+	id: ID!
+	"Intel Price"
+	intelPrice: DeserializableInt
+	"Maximum Customers"
+	maximumCustomers: DeserializableInt
+	modified: DateTime!
+	"PPSR Price"
+	ppsrPrice: DeserializableInt
+}
+
+"Active User Pricing Tier"
+type ActiveUserPricingTierEntityType {
+	created: DateTime!
+	id: ID!
+	maximumUsers: DeserializableInt
+	modified: DateTime!
+	"Price"
+	price: DeserializableInt
+}
+
+"Address"
+type AddressEntityType {
+	atbRecord: AtbRecordEntityType
+	atbRecordId: ID
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	city: String
+	"Country"
+	country: String
+	created: DateTime!
+	customerWithPhysicalAddress: CustomerEntityType
+	customerWithPhysicalAddressId: ID
+	customerWithPostalAddress: CustomerEntityType
+	customerWithPostalAddressId: ID
+	id: ID!
+	"Line 1"
+	line1: String
+	"Line 2"
+	line2: String
+	modified: DateTime!
+	"Postcode"
+	postcode: String
+	"State"
+	state: String
+	"Suburb"
+	suburb: String
+}
+
+type AlaresEntityType {
+	adverseAlerts: DeserializableInt
+	businessNumber: String
+	created: DateTime!
+	customer: CustomerEntityType
+	customerId: ID
+	id: ID!
+	insolvencyRiskRating: RiskScore
+	"The raw decimal value of the insolvency risk rating"
+	insolvencyRiskRatingValue: DeserializableFloat
+	"Alares report in json"
+	jsonreport: String
+	lastUpdated: DateOnly
+	modified: DateTime!
+	"Whether or not the status has been processed"
+	processed: DeserializableBoolean
+	reportID: DeserializableInt
+}
+
+"Approve Application"
+type ApplicationEntityType {
+	"Application Date"
+	applicationDate: DateOnly
+	applicationName: String
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	"Contact Name"
+	contactName: String
+	created: DateTime!
+	email: String
+	id: ID!
+	"Is the application active"
+	isActive: DeserializableBoolean
+	legacyID: String
+	"Business Logo"
+	logoId: ID
+	modified: DateTime!
+	phone: String
+	"Approve Privacy Policy"
+	privacyPolicyId: ID
+	"Application Terms and Conditions"
+	termsAndConditionsId: ID
+}
+
+"A record representing the uploaded file"
+type AtbFileEntityType {
+	"Whether or not new customers should be added by default"
+	addNewCustomers: DeserializableBoolean
+	atbFileType: AtbFileType
+	atbJobStatus: AtbJobStatus
+	atbProcessingStatus: AtbProcessingStatus
+	atbRecords(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbRecordEntityType!]
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	created: DateTime!
+	fileName: String
+	id: ID!
+	modified: DateTime!
+	"Target Year and Month for the data. Day should always be 0."
+	targetMonth: DateOnly
+	user: UserEntityType
+	userId: ID
+}
+
+"A record in the ATB File"
+type AtbRecordEntityType {
+	abn: String
+	acn: String
+	address: AddressEntityType
+	atbFile: AtbFileEntityType
+	atbFileId: ID
+	created: DateTime!
+	customer: CustomerEntityType
+	customerId: ID
+	customerName: String
+	debtorID: String
+	dp120plus: DeserializableFloat
+	dp1to30: DeserializableFloat
+	dp31to60: DeserializableFloat
+	dp61to90: DeserializableFloat
+	dp91to120: DeserializableFloat
+	dpcurrent: DeserializableFloat
+	entityName: String
+	"Whether or not the ATB Record has been processed"
+	errorsProcessed: DeserializableBoolean
+	id: ID!
+	modified: DateTime!
+	"Json object of original data"
+	originalData: String
+	"The payment risk rating for the customer given this set of ATB data"
+	paymentRiskRating: RiskScore
+	phone: String
+	"Json Object with Errors from processing"
+	processingErrors: String
+	"Json Object with Warnings from processing"
+	processingWarnings: String
+	sicCode: String
+	terms: String
+	totalDebt: DeserializableFloat
+	"Total overdue debt"
+	totalOverdue: DeserializableFloat
+	trusteeACN: String
+}
+
+type BooleanObjectType {
+	"The value of the boolean"
+	value: Boolean
+}
+
+"Business Entity"
+type BusinessEntityType {
+	"ABN"
+	abn: String
+	"ABR Last Updated"
+	abrLastUpdated: DeserializableDateTime
+	"ACN"
+	acn: String
+	"The entity name sent back in the ACN response"
+	acnEntityName: String
+	"The entity type code sent back in the ACN response"
+	acnEntityTypeCode: String
+	"ACN Last Updated"
+	acnLastUpdated: DeserializableDateTime
+	"Status of the ACN"
+	acnStatus: String
+	address: AddressEntityType
+	applicationss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [ApplicationEntityType!]
+	atbFiles(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbFileEntityType!]
+	created: DateTime!
+	"The Creditor ID is used in the ATB reports"
+	creditorID: String
+	customerss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CustomerEntityType!]
+	"DoB field uses for sole traders"
+	dateOfBirth: DeserializableDateTime
+	"Email"
+	email: String
+	"Enabled for Approve"
+	enabledForApprove: DeserializableBoolean
+	"Enabled for PPSR"
+	enabledForPPSR: DeserializableBoolean
+	"Entity Name retrieve from ABN lookup"
+	entityName: String
+	entityStatus: String
+	"Entity Type Code retrieve from ABN lookup"
+	entityTypeCode: String
+	"Entity Type Description retrieve from ABN lookup"
+	entityTypeDescription: String
+	"Is the business of type Finance"
+	finance: DeserializableBoolean
+	"Is the business of a Hire business type"
+	hire: DeserializableBoolean
+	id: ID!
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Legacy ID"
+	legacyID: DeserializableInt
+	modified: DateTime!
+	"Name"
+	name: String
+	organisation: OrganisationEntityType
+	organisationId: ID
+	"Phone"
+	phone: String
+	primaryOrganisation: OrganisationEntityType
+	spgss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [SpgEntityType!]
+	"Brief summary of the business"
+	summary: String
+	"Is the business of type Supply Goods and Equipment"
+	supplyGnE: DeserializableBoolean
+	trusteeACN: String
+	"The entity name sent back by the trustee ACN response"
+	trusteeACNEntityName: String
+	"The entity type code for the trustee ACN reponse"
+	trusteeACNEntityTypeCode: String
+	"Trustee ACN Last Updated"
+	trusteeACNLastUpdated: DeserializableDateTime
+	"Trustee ACN Status"
+	trusteeACNStatus: String
+	trusteeName: String
+	"Boolean for determining to use the organisation email instead of the saved one."
+	useOrganisationEmail: DeserializableBoolean
+	users(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityUserType!]
+}
+
+type BusinessEntityUserType {
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	created: DateTime
+	id: ID
+	modified: DateTime
+	user: UserEntityType
+	userId: ID
+}
+
+"Credit Bureau"
+type CreditBureauEntityType {
+	created: DateTime!
+	id: ID!
+	modified: DateTime!
+	"Name"
+	name: String
+	organisations(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationAuthorisedCreditBureauType!]
+}
+
+"Customer"
+type CustomerEntityType {
+	"ABN"
+	abn: String
+	"ABN is current indicator"
+	abnActive: DeserializableBoolean
+	"ABR Last Updated"
+	abrLastUpdated: DeserializableDateTime
+	accountNumber: String
+	"Accounts Contact"
+	accountsContact: String
+	"Accounts Phone Number"
+	accountsPhoneNumber: String
+	"ACN"
+	acn: String
+	"The entity name sent back in the ACN response"
+	acnEntityName: String
+	"The entity type code sent back in the ACN response"
+	acnEntityTypeCode: String
+	acnLastUpdated: DeserializableDateTime
+	acnStatus: String
+	"Active Since"
+	activeSince: DeserializableDateTime
+	alaress(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AlaresEntityType!]
+	applicationNumber: String
+	applicationStatus: String
+	atbRecords(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbRecordEntityType!]
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	businessName: String
+	created: DateTime!
+	creditLimit: String
+	"Date of Birth"
+	dateOfBirth: DateOnly
+	"A customer's debtor ID represents the unique identifier used by business entities to represent their customers"
+	debtorID: String
+	"Email"
+	email: String
+	"Entity Name"
+	entityName: String
+	"Entity Status"
+	entityStatus: String
+	"Entity Type Code"
+	entityTypeCode: String
+	"Entity Type Description"
+	entityTypeDescription: String
+	"First Name"
+	firstName: String
+	id: ID!
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Last Name"
+	lastName: String
+	"Locality"
+	locality: String
+	modified: DateTime!
+	"Name for Invoice"
+	nameForInvoice: String
+	newestAlares: AlaresEntityType
+	newestAtbRecord: AtbRecordEntityType
+	organisation: OrganisationEntityType
+	organisationId: ID
+	"Phone"
+	phone: String
+	physicalAddress: AddressEntityType
+	postalAddress: AddressEntityType
+	"Purchasing Officer"
+	purchasingOfficer: String
+	purchasingOfficerEmail: String
+	"Record Updated"
+	recordUpdated: DeserializableDateTime
+	"Registered for GST"
+	registeredForGST: DeserializableBoolean
+	"Statements Contact"
+	statementsContact: String
+	"Statements Email"
+	statementsEmail: String
+	"Tax Invoices Contact"
+	taxInvoicesContact: String
+	"Tax Invoices Email"
+	taxInvoicesEmail: String
+	"Trading terms"
+	tradingTerms: String
+	trusteeACN: String
+	"The entity name sent back by the trustee ACN response"
+	trusteeACNEntityName: String
+	"The entity type code for the trustee ACN reponse"
+	trusteeACNEntityTypeCode: String
+	trusteeACNLastUpdated: DeserializableDateTime
+	trusteeACNStatus: String
+	trusteeName: String
+}
+
+"The discounts applied to the organisation"
+type DiscountEntityType {
+	created: DateTime!
+	discountPercent: DeserializableInt
+	"Discount apply from the moment they are created until their expiration date"
+	expirationDate: DateOnly
+	id: ID!
+	modified: DateTime!
+	organisation: OrganisationEntityType
+	organisationId: ID
+	"The source of the discount"
+	source: DiscountSource
+}
+
+"Holds assorted documents, such as T&Cs"
+type DocumentEntityType {
+	created: DateTime!
+	fileId: ID
+	id: ID!
+	modified: DateTime!
+	"Name"
+	name: String
+}
+
+type IdObjectType {
+	"An ID in the form of a GUID"
+	id: ID
+}
+
+"Industry Codes"
+type IndustryCodesEntityType {
+	"Code"
+	code: String
+	created: DateTime!
+	"Description"
+	description: String
+	id: ID!
+	modified: DateTime!
+	organisationss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationEntityType!]
+}
+
+"Invoice"
+type InvoiceEntityType {
+	created: DateTime!
+	"Customer Count"
+	customerCount: DeserializableInt
+	"Discount Price"
+	discountPrice: DeserializableFloat
+	"Final Price"
+	finalPrice: DeserializableFloat
+	id: ID!
+	"Line items that make up the Final Price"
+	lineItems: String
+	modified: DateTime!
+	"Monthly Exposure"
+	monthlyExposure: DeserializableFloat
+	"Monthly Price"
+	monthlyPrice: DeserializableFloat
+	organisation: OrganisationEntityType
+	organisationId: ID
+	"The name of the referral partner that referred this Organisation"
+	referredBy: String
+	"User Count"
+	userCount: DeserializableInt
+	"Using Approve"
+	usingApprove: DeserializableBoolean
+	"Using Monitor"
+	usingMonitor: DeserializableBoolean
+	"Using PPSR"
+	usingPPSR: DeserializableBoolean
+}
+
+"Monthly Exposure Pricing Tier"
+type MonthlyExposurePricingTierEntityType {
+	created: DateTime!
+	id: ID!
+	"Maximum Monthly Exposure"
+	maximumMonthlyExposure: DeserializableInt
+	modified: DateTime!
+	"Price"
+	price: DeserializableInt
+}
+
+type Mutation {
+	createActiveCustomerPricingTierEntity(activeCustomerPricingTierEntitys: [ActiveCustomerPricingTierEntityInput], mergeReferences: [String]): [ActiveCustomerPricingTierEntityType!]!
+	createActiveUserPricingTierEntity(activeUserPricingTierEntitys: [ActiveUserPricingTierEntityInput], mergeReferences: [String]): [ActiveUserPricingTierEntityType!]!
+	createAddressEntity(addressEntitys: [AddressEntityInput], mergeReferences: [String]): [AddressEntityType!]!
+	createAlaresEntity(alaresEntitys: [AlaresEntityInput], mergeReferences: [String]): [AlaresEntityType!]!
+	createApplicationEntity(applicationEntitys: [ApplicationEntityInput], mergeReferences: [String]): [ApplicationEntityType!]!
+	createAtbFileEntity(atbFileEntitys: [AtbFileEntityInput], mergeReferences: [String]): [AtbFileEntityType!]!
+	createAtbRecordEntity(atbRecordEntitys: [AtbRecordEntityInput], mergeReferences: [String]): [AtbRecordEntityType!]!
+	createBusinessEntity(businessEntitys: [BusinessEntityInput], mergeReferences: [String]): [BusinessEntityType!]!
+	createBusinessEntityUser(businessEntityUsers: [BusinessEntityUserInput], mergeReferences: [String]): [BusinessEntityUserType!]!
+	createCreditBureauEntity(creditBureauEntitys: [CreditBureauEntityInput], mergeReferences: [String]): [CreditBureauEntityType!]!
+	createCustomerEntity(customerEntitys: [CustomerEntityInput], mergeReferences: [String]): [CustomerEntityType!]!
+	createDiscountEntity(discountEntitys: [DiscountEntityInput], mergeReferences: [String]): [DiscountEntityType!]!
+	createDocumentEntity(documentEntitys: [DocumentEntityInput], mergeReferences: [String]): [DocumentEntityType!]!
+	createIndustryCodesEntity(industryCodesEntitys: [IndustryCodesEntityInput], mergeReferences: [String]): [IndustryCodesEntityType!]!
+	createInvoiceEntity(invoiceEntitys: [InvoiceEntityInput], mergeReferences: [String]): [InvoiceEntityType!]!
+	createMonthlyExposurePricingTierEntity(mergeReferences: [String], monthlyExposurePricingTierEntitys: [MonthlyExposurePricingTierEntityInput]): [MonthlyExposurePricingTierEntityType!]!
+	createOptionHowDidYouHearEntity(mergeReferences: [String], optionHowDidYouHearEntitys: [OptionHowDidYouHearEntityInput]): [OptionHowDidYouHearEntityType!]!
+	createOptionReferrerCharityEntity(mergeReferences: [String], optionReferrerCharityEntitys: [OptionReferrerCharityEntityInput]): [OptionReferrerCharityEntityType!]!
+	createOrganisationAuthorisedCreditBureau(mergeReferences: [String], organisationAuthorisedCreditBureaus: [OrganisationAuthorisedCreditBureauInput]): [OrganisationAuthorisedCreditBureauType!]!
+	createOrganisationEntity(mergeReferences: [String], organisationEntitys: [OrganisationEntityInput]): [OrganisationEntityType!]!
+	createRegistrationEntity(mergeReferences: [String], registrationEntitys: [RegistrationEntityInput]): [RegistrationEntityType!]!
+	createRegistrationFileEntity(mergeReferences: [String], registrationFileEntitys: [RegistrationFileEntityInput]): [RegistrationFileEntityType!]!
+	createSpgEntity(mergeReferences: [String], spgEntitys: [SpgEntityInput]): [SpgEntityType!]!
+	createTrustEntityCodesEntity(mergeReferences: [String], trustEntityCodesEntitys: [TrustEntityCodesEntityInput]): [TrustEntityCodesEntityType!]!
+	createUserEntity(mergeReferences: [String], userEntitys: [UserEntityCreateInput]): [UserEntityType!]!
+	deleteActiveCustomerPricingTierEntity(activeCustomerPricingTierEntityIds: [ID]): [IdObjectType!]!
+	deleteActiveCustomerPricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteActiveUserPricingTierEntity(activeUserPricingTierEntityIds: [ID]): [IdObjectType!]!
+	deleteActiveUserPricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteAddressEntity(addressEntityIds: [ID]): [IdObjectType!]!
+	deleteAddressEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteAlaresEntity(alaresEntityIds: [ID]): [IdObjectType!]!
+	deleteAlaresEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteApplicationEntity(applicationEntityIds: [ID]): [IdObjectType!]!
+	deleteApplicationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteAtbFileEntity(atbFileEntityIds: [ID]): [IdObjectType!]!
+	deleteAtbFileEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteAtbRecordEntity(atbRecordEntityIds: [ID]): [IdObjectType!]!
+	deleteAtbRecordEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteBusinessEntity(businessEntityIds: [ID]): [IdObjectType!]!
+	deleteBusinessEntityUser(businessEntityUserIds: [ID]): [IdObjectType!]!
+	deleteBusinessEntityUsersConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteBusinessEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteCreditBureauEntity(creditBureauEntityIds: [ID]): [IdObjectType!]!
+	deleteCreditBureauEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteCustomerEntity(customerEntityIds: [ID]): [IdObjectType!]!
+	deleteCustomerEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteDiscountEntity(discountEntityIds: [ID]): [IdObjectType!]!
+	deleteDiscountEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteDocumentEntity(documentEntityIds: [ID]): [IdObjectType!]!
+	deleteDocumentEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteIndustryCodesEntity(industryCodesEntityIds: [ID]): [IdObjectType!]!
+	deleteIndustryCodesEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteInvoiceEntity(invoiceEntityIds: [ID]): [IdObjectType!]!
+	deleteInvoiceEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteMonthlyExposurePricingTierEntity(monthlyExposurePricingTierEntityIds: [ID]): [IdObjectType!]!
+	deleteMonthlyExposurePricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteOptionHowDidYouHearEntity(optionHowDidYouHearEntityIds: [ID]): [IdObjectType!]!
+	deleteOptionHowDidYouHearEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteOptionReferrerCharityEntity(optionReferrerCharityEntityIds: [ID]): [IdObjectType!]!
+	deleteOptionReferrerCharityEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteOrganisationAuthorisedCreditBureau(organisationAuthorisedCreditBureauIds: [ID]): [IdObjectType!]!
+	deleteOrganisationAuthorisedCreditBureausConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteOrganisationEntity(organisationEntityIds: [ID]): [IdObjectType!]!
+	deleteOrganisationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteRegistrationEntity(registrationEntityIds: [ID]): [IdObjectType!]!
+	deleteRegistrationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteRegistrationFileEntity(registrationFileEntityIds: [ID]): [IdObjectType!]!
+	deleteRegistrationFileEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteSpgEntity(spgEntityIds: [ID]): [IdObjectType!]!
+	deleteSpgEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteTrustEntityCodesEntity(trustEntityCodesEntityIds: [ID]): [IdObjectType!]!
+	deleteTrustEntityCodesEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	deleteUserEntity(userEntityIds: [ID]): [IdObjectType!]!
+	deleteUserEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		id: ID,
+		ids: [ID]
+	): BooleanObjectType
+	updateActiveCustomerPricingTierEntity(activeCustomerPricingTierEntitys: [ActiveCustomerPricingTierEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [ActiveCustomerPricingTierEntityType!]!
+	updateActiveCustomerPricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: ActiveCustomerPricingTierEntityInput
+	): BooleanObjectType
+	updateActiveUserPricingTierEntity(activeUserPricingTierEntitys: [ActiveUserPricingTierEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [ActiveUserPricingTierEntityType!]!
+	updateActiveUserPricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: ActiveUserPricingTierEntityInput
+	): BooleanObjectType
+	updateAddressEntity(addressEntitys: [AddressEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [AddressEntityType!]!
+	updateAddressEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: AddressEntityInput
+	): BooleanObjectType
+	updateAlaresEntity(alaresEntitys: [AlaresEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [AlaresEntityType!]!
+	updateAlaresEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: AlaresEntityInput
+	): BooleanObjectType
+	updateApplicationEntity(applicationEntitys: [ApplicationEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [ApplicationEntityType!]!
+	updateApplicationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: ApplicationEntityInput
+	): BooleanObjectType
+	updateAtbFileEntity(atbFileEntitys: [AtbFileEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [AtbFileEntityType!]!
+	updateAtbFileEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: AtbFileEntityInput
+	): BooleanObjectType
+	updateAtbRecordEntity(atbRecordEntitys: [AtbRecordEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [AtbRecordEntityType!]!
+	updateAtbRecordEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: AtbRecordEntityInput
+	): BooleanObjectType
+	updateBusinessEntity(businessEntitys: [BusinessEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [BusinessEntityType!]!
+	updateBusinessEntityUser(businessEntityUsers: [BusinessEntityUserInput], fieldsToUpdate: [String], mergeReferences: [String]): [BusinessEntityUserType!]!
+	updateBusinessEntityUsersConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: BusinessEntityUserInput
+	): BooleanObjectType
+	updateBusinessEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: BusinessEntityInput
+	): BooleanObjectType
+	updateCreditBureauEntity(creditBureauEntitys: [CreditBureauEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [CreditBureauEntityType!]!
+	updateCreditBureauEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: CreditBureauEntityInput
+	): BooleanObjectType
+	updateCustomerEntity(customerEntitys: [CustomerEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [CustomerEntityType!]!
+	updateCustomerEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: CustomerEntityInput
+	): BooleanObjectType
+	updateDiscountEntity(discountEntitys: [DiscountEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [DiscountEntityType!]!
+	updateDiscountEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: DiscountEntityInput
+	): BooleanObjectType
+	updateDocumentEntity(documentEntitys: [DocumentEntityInput], fieldsToUpdate: [String], mergeReferences: [String]): [DocumentEntityType!]!
+	updateDocumentEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: DocumentEntityInput
+	): BooleanObjectType
+	updateIndustryCodesEntity(fieldsToUpdate: [String], industryCodesEntitys: [IndustryCodesEntityInput], mergeReferences: [String]): [IndustryCodesEntityType!]!
+	updateIndustryCodesEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: IndustryCodesEntityInput
+	): BooleanObjectType
+	updateInvoiceEntity(fieldsToUpdate: [String], invoiceEntitys: [InvoiceEntityInput], mergeReferences: [String]): [InvoiceEntityType!]!
+	updateInvoiceEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: InvoiceEntityInput
+	): BooleanObjectType
+	updateMonthlyExposurePricingTierEntity(fieldsToUpdate: [String], mergeReferences: [String], monthlyExposurePricingTierEntitys: [MonthlyExposurePricingTierEntityInput]): [MonthlyExposurePricingTierEntityType!]!
+	updateMonthlyExposurePricingTierEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: MonthlyExposurePricingTierEntityInput
+	): BooleanObjectType
+	updateOptionHowDidYouHearEntity(fieldsToUpdate: [String], mergeReferences: [String], optionHowDidYouHearEntitys: [OptionHowDidYouHearEntityInput]): [OptionHowDidYouHearEntityType!]!
+	updateOptionHowDidYouHearEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: OptionHowDidYouHearEntityInput
+	): BooleanObjectType
+	updateOptionReferrerCharityEntity(fieldsToUpdate: [String], mergeReferences: [String], optionReferrerCharityEntitys: [OptionReferrerCharityEntityInput]): [OptionReferrerCharityEntityType!]!
+	updateOptionReferrerCharityEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: OptionReferrerCharityEntityInput
+	): BooleanObjectType
+	updateOrganisationAuthorisedCreditBureau(fieldsToUpdate: [String], mergeReferences: [String], organisationAuthorisedCreditBureaus: [OrganisationAuthorisedCreditBureauInput]): [OrganisationAuthorisedCreditBureauType!]!
+	updateOrganisationAuthorisedCreditBureausConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: OrganisationAuthorisedCreditBureauInput
+	): BooleanObjectType
+	updateOrganisationEntity(fieldsToUpdate: [String], mergeReferences: [String], organisationEntitys: [OrganisationEntityInput]): [OrganisationEntityType!]!
+	updateOrganisationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: OrganisationEntityInput
+	): BooleanObjectType
+	updateRegistrationEntity(fieldsToUpdate: [String], mergeReferences: [String], registrationEntitys: [RegistrationEntityInput]): [RegistrationEntityType!]!
+	updateRegistrationEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: RegistrationEntityInput
+	): BooleanObjectType
+	updateRegistrationFileEntity(fieldsToUpdate: [String], mergeReferences: [String], registrationFileEntitys: [RegistrationFileEntityInput]): [RegistrationFileEntityType!]!
+	updateRegistrationFileEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: RegistrationFileEntityInput
+	): BooleanObjectType
+	updateSpgEntity(fieldsToUpdate: [String], mergeReferences: [String], spgEntitys: [SpgEntityInput]): [SpgEntityType!]!
+	updateSpgEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: SpgEntityInput
+	): BooleanObjectType
+	updateTrustEntityCodesEntity(fieldsToUpdate: [String], mergeReferences: [String], trustEntityCodesEntitys: [TrustEntityCodesEntityInput]): [TrustEntityCodesEntityType!]!
+	updateTrustEntityCodesEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: TrustEntityCodesEntityInput
+	): BooleanObjectType
+	updateUserEntity(fieldsToUpdate: [String], mergeReferences: [String], userEntitys: [UserEntityInput]): [UserEntityType!]!
+	updateUserEntitysConditional(
+		"A list of lists of where conditions. The conditions inside the innermost lists are joined with and OR and the results of those lists are joined with an AND"
+		conditions: [[WhereExpressionGraph]],
+		fieldsToUpdate: [String],
+		id: ID,
+		ids: [ID],
+		valuesToUpdate: UserEntityInput
+	): BooleanObjectType
+}
+
+type NumberObjectType {
+	"The total number"
+	number: Int
+}
+
+"The list of options for an organisation to indicate how they hear about us"
+type OptionHowDidYouHearEntityType {
+	created: DateTime!
+	id: ID!
+	modified: DateTime!
+	name: String
+}
+
+"The list of charities a referrer can choose if they donate to a charity"
+type OptionReferrerCharityEntityType {
+	created: DateTime!
+	description: String
+	id: ID!
+	modified: DateTime!
+	name: String
+}
+
+"Credit bureaus the organisation has agreed to share data with"
+type OrganisationAuthorisedCreditBureauType {
+	authorisedCreditBureau: CreditBureauEntityType
+	authorisedCreditBureauId: ID
+	created: DateTime
+	id: ID
+	modified: DateTime
+	organisation: OrganisationEntityType
+	organisationId: ID
+}
+
+"Organisation"
+type OrganisationEntityType {
+	"Date the user last accepted terms. If this is prior to the last time the terms were updated, the user may need to accept them again."
+	acceptedterms: DeserializableDateTime
+	"Approve Enabled"
+	approveEnabled: DeserializableBoolean
+	authorisedCreditBureaus(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [OrganisationAuthorisedCreditBureauType!]
+	businessEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityType!]
+	created: DateTime!
+	"CRiskCo Applicant ID"
+	criskcoApplicantID: String
+	"Customer Column Settings"
+	customerColumnSettings: String
+	"This customer count is used for pricing if the organisation has not added any customers yet in the Monitor platform"
+	customerCount: DeserializableInt
+	customerss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [CustomerEntityType!]
+	discountss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [DiscountEntityType!]
+	howDidYouHearAboutUs: String
+	id: ID!
+	industryCodes: IndustryCodesEntityType
+	industryCodesId: ID
+	"Intel Enabled"
+	intelEnabled: DeserializableBoolean
+	invoices(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [InvoiceEntityType!]
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Is the organisation a client"
+	isClient: DeserializableBoolean
+	"Is the organisation a referral partner"
+	isReferralPartner: DeserializableBoolean
+	legacyID: DeserializableInt
+	modified: DateTime!
+	"This is the current monthly exposure of the organisation"
+	monthlyExposure: DeserializableFloat
+	"PPSR Enabled"
+	ppsrEnabled: DeserializableBoolean
+	primaryBusinessEntity: BusinessEntityType
+	primaryBusinessEntityId: ID
+	referredRegistrationss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationEntityType!]
+	referrerAcceptedTerms: DeserializableBoolean
+	"Referrer BSB"
+	referrerBSB: String
+	"Bank Account Name for the referral partner"
+	referrerBankAccountName: String
+	"Referrer Bank Account Number"
+	referrerBankAccountNumber: String
+	"The mode which they would like to receive commission"
+	referrerBenefitType: ReferrerBenefitType
+	"Other Business Type Description"
+	referrerBusinessOther: String
+	"What does your business do"
+	referrerBusinessType: ReferrerBusinessType
+	"The name of the charity they would like to receive their commission"
+	referrerCharityName: String
+	"How often does the organisaion receive the commission"
+	referrerCommissionFrequency: ReferrerCommissionFrequency
+	"The discount applied to referred clients from this organisation"
+	referrerCommissionPercent: DeserializableInt
+	registration: RegistrationEntityType
+	users(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [UserEntityType!]
+}
+
+"Registration"
+type RegistrationEntityType {
+	"Date registration was finished. Null if registration is still pending."
+	completedDate: DeserializableDateTime
+	created: DateTime!
+	createdOrganisation: OrganisationEntityType
+	createdOrganisationId: ID
+	createdUser: UserEntityType
+	createdUserId: ID
+	id: ID!
+	modified: DateTime!
+	"Organisation Name"
+	organisationName: String
+	"Products"
+	products: String
+	"The email of the person that the referral link was created for"
+	refereeEmail: String
+	"The name of the person that the referral link was created for"
+	refereeName: String
+	"JSON field to hold information for the referral partner registration"
+	referralData: String
+	referralStatus: RegistrationStatus
+	referringOrganisation: OrganisationEntityType
+	referringOrganisationId: ID
+	referringUser: UserEntityType
+	referringUserId: ID
+	"JSON field used to hold contents of various questions"
+	registrationData: String
+	registrationFiless(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationFileEntityType!]
+	"The actual start date of the registration, as registration can be created before actually being started"
+	startDate: DateOnly
+	"Status"
+	status: RegistrationStatus
+	"User Email"
+	userEmail: String
+	"User Name"
+	userName: String
+}
+
+"Registration File"
+type RegistrationFileEntityType {
+	created: DateTime!
+	"File"
+	fileId: ID
+	id: ID!
+	modified: DateTime!
+	registration: RegistrationEntityType
+	registrationId: ID
+}
+
+"PPSR Registration"
+type SpgEntityType {
+	"Existing Access Code"
+	accessCode: String
+	businessEntity: BusinessEntityType
+	businessEntityId: ID
+	contactName: String
+	created: DateTime!
+	email: String
+	id: ID!
+	isActive: DeserializableBoolean
+	legacyID: String
+	modified: DateTime!
+	"Comma seperated string of organisation numbers"
+	organisationalNumbers: String
+	phone: String
+	spgNumber: String
+}
+
+"The entity codes for all the trusts."
+type TrustEntityCodesEntityType {
+	created: DateTime!
+	"The entity code"
+	entityCode: String
+	id: ID!
+	modified: DateTime!
+}
+
+"User"
+type UserEntityType {
+	atbFiles(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [AtbFileEntityType!]
+	businessEntitys(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [BusinessEntityUserType!]
+	"Can Access Approve"
+	canAccessApprove: DeserializableBoolean
+	"Can Access Intel"
+	canAccessIntel: DeserializableBoolean
+	"Can Access PPSR"
+	canAccessPPSR: DeserializableBoolean
+	created: DateTime!
+	email: String
+	"First Name"
+	firstName: String
+	id: ID!
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Last Name"
+	lastName: String
+	legacyID: DeserializableInt
+	modified: DateTime!
+	organisation: OrganisationEntityType
+	organisationId: ID
+	"Permission Overrides"
+	permissionOverrides: String
+	"Phone"
+	phone: String
+	referredRegistrationss(conditions: [[WhereExpressionGraph]], conditionsOr: [[WhereExpressionGraph]], has: [[HasConditionType]], id: ID, ids: [ID], orderBy: [OrderByGraph], skip: Int, take: Int, where: [WhereExpressionGraph]): [RegistrationEntityType!]
+	registration: RegistrationEntityType
+	twoFactorEnabled: Boolean!
+	userName: String!
+	"User Type"
+	userType: UserType
+}
+
+enum AtbFileType {
+	CUSTOMERS_ONLY
+	STANDARD
+	UNKNOWN
+}
+
+enum AtbJobStatus {
+	PROCESSED
+	PROCESSING
+	QUEUED
+}
+
+enum AtbProcessingStatus {
+	CREATED
+	PROCESSED
+	PROCESSING
+}
+
+enum Comparison {
+	"Comparison to check if the target value is between the two provided values. This value is inclusive on the first field and exclusive on the second."
+	between
+	"Comparison to check if the target string contains the provided string."
+	contains
+	"Comparison to check if the target string ends with the provided string."
+	endsWith
+	"Comparison to check if the target value equals provided value."
+	equal
+	"Comparison to check if the target value is greater than the provided value."
+	greaterThan
+	"Comparison to check if the target value is greater than or equal to the provided value."
+	greaterThanOrEqual
+	"Comparison to check if the target value is in the list of provided values."
+	in
+	"Comparison to check if the target value is less than the provided value."
+	lessThan
+	"Comparison to check if the target value is less than or equal to the provided value."
+	lessThanOrEqual
+	"Comparison to check if the target string is like the provided value. The wildcard characters are '%' for many characters and '_' for a single character."
+	like
+	"Comparison to check if the target value is not in the list of provided values."
+	notIn @deprecated(reason: "Negation Property used with the 'in' comparison should be used in place of this")
+	"Comparison to check if the target string starts with the provided string."
+	startsWith
+}
+
+enum DiscountSource {
+	CUSTOM
+	MIGRATION
+	REFERRER
+}
+
+enum ReferrerBenefitType {
+	CHARITY
+	CLIENT_DISCOUNT
+	COMMISSION
+	NO_COMMISSION
+}
+
+enum ReferrerBusinessType {
+	CREDIT_BUREAU
+	CREDIT_INSURANCE_BROKER
+	DEBT_COLLECTION
+	INDIVIDUAL
+	INSOLVENCY_PRACTITIONER
+	LAWYER
+	OTHER
+}
+
+enum ReferrerCommissionFrequency {
+	QUARTERLY
+	SIX_MONTHLY
+	YEARLY
+}
+
+enum RegistrationStatus {
+	COMPLETE
+	CREATED
+	INCOMPLETE
+	PENDING
+}
+
+enum RiskScore {
+	AVERAGE
+	HIGH
+	LOW
+	MINIMAL
+	MODERATE
+	SEVERE
+	UNKNOWN
+	VERY_HIGH
+	VERY_LOW
+}
+
+enum StringComparison {
+	CURRENT_CULTURE
+	CURRENT_CULTURE_IGNORE_CASE
+	INVARIANT_CULTURE
+	INVARIANT_CULTURE_IGNORE_CASE
+	ORDINAL
+	ORDINAL_IGNORE_CASE
+}
+
+enum UserType {
+	ADMIN
+	ORGANISATION_MANAGER
+	REFERRAL_PARTNER
+	RESTRICTED_USER
+	SALESPERSON
+	SUPER_USER
+	USER
+}
+
+"The `Date` scalar type represents a year, month and day in accordance with the [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) standard. Format is `yyyy-MM-dd`"
+scalar DateOnly
+
+"The `DateTime` scalar type represents a date and time. `DateTime` expects timestamps to be formatted in accordance with the [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) standard."
+scalar DateTime
+
+scalar DeserializableBoolean
+
+"The `DateTime` scalar type represents a date and time. `DateTime` expects timestamps to be formatted in accordance with the [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) standard."
+scalar DeserializableDateTime
+
+scalar DeserializableFloat
+
+scalar DeserializableInt
+
+"The input object for adding a new ActiveCustomerPricingTierEntity"
+input ActiveCustomerPricingTierEntityInput {
+	"Approve Price"
+	approvePrice: DeserializableInt
+	created: DeserializableDateTime
+	id: ID
+	"Intel Price"
+	intelPrice: DeserializableInt
+	"Maximum Customers"
+	maximumCustomers: DeserializableInt
+	modified: DeserializableDateTime
+	"PPSR Price"
+	ppsrPrice: DeserializableInt
+}
+
+"The input object for adding a new ActiveUserPricingTierEntity"
+input ActiveUserPricingTierEntityInput {
+	created: DeserializableDateTime
+	id: ID
+	maximumUsers: DeserializableInt
+	modified: DeserializableDateTime
+	"Price"
+	price: DeserializableInt
+}
+
+"The input object for adding a new AddressEntity"
+input AddressEntityInput {
+	atbRecord: AtbRecordEntityInput
+	atbRecordId: ID
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	city: String
+	"Country"
+	country: String
+	created: DeserializableDateTime
+	customerWithPhysicalAddress: CustomerEntityInput
+	customerWithPhysicalAddressId: ID
+	customerWithPostalAddress: CustomerEntityInput
+	customerWithPostalAddressId: ID
+	id: ID
+	"Line 1"
+	line1: String
+	"Line 2"
+	line2: String
+	modified: DeserializableDateTime
+	"Postcode"
+	postcode: String
+	"State"
+	state: String
+	"Suburb"
+	suburb: String
+}
+
+"The input object for adding a new AlaresEntity"
+input AlaresEntityInput {
+	adverseAlerts: DeserializableInt
+	businessNumber: String
+	created: DeserializableDateTime
+	customer: CustomerEntityInput
+	customerId: ID
+	id: ID
+	insolvencyRiskRating: RiskScore
+	"The raw decimal value of the insolvency risk rating"
+	insolvencyRiskRatingValue: DeserializableFloat
+	"Alares report in json"
+	jsonreport: String
+	lastUpdated: DateOnly
+	modified: DeserializableDateTime
+	"Whether or not the status has been processed"
+	processed: DeserializableBoolean
+	reportID: DeserializableInt
+}
+
+"The input object for adding a new ApplicationEntity"
+input ApplicationEntityInput {
+	"Application Date"
+	applicationDate: DateOnly
+	applicationName: String
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	"Contact Name"
+	contactName: String
+	created: DeserializableDateTime
+	email: String
+	id: ID
+	"Is the application active"
+	isActive: DeserializableBoolean
+	legacyID: String
+	"Business Logo"
+	logoId: ID
+	modified: DeserializableDateTime
+	phone: String
+	"Approve Privacy Policy"
+	privacyPolicyId: ID
+	"Application Terms and Conditions"
+	termsAndConditionsId: ID
+}
+
+"The input object for adding a new AtbFileEntity"
+input AtbFileEntityInput {
+	"Whether or not new customers should be added by default"
+	addNewCustomers: DeserializableBoolean
+	atbFileType: AtbFileType
+	atbJobStatus: AtbJobStatus
+	atbProcessingStatus: AtbProcessingStatus
+	atbRecords: [AtbRecordEntityInput]
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	created: DeserializableDateTime
+	fileName: String
+	id: ID
+	modified: DeserializableDateTime
+	"Target Year and Month for the data. Day should always be 0."
+	targetMonth: DateOnly
+	user: UserEntityInput
+	userId: ID
+}
+
+"The input object for adding a new AtbRecordEntity"
+input AtbRecordEntityInput {
+	abn: String
+	acn: String
+	address: AddressEntityInput
+	atbFile: AtbFileEntityInput
+	atbFileId: ID
+	created: DeserializableDateTime
+	customer: CustomerEntityInput
+	customerId: ID
+	customerName: String
+	debtorID: String
+	dp120plus: DeserializableFloat
+	dp1to30: DeserializableFloat
+	dp31to60: DeserializableFloat
+	dp61to90: DeserializableFloat
+	dp91to120: DeserializableFloat
+	dpcurrent: DeserializableFloat
+	entityName: String
+	"Whether or not the ATB Record has been processed"
+	errorsProcessed: DeserializableBoolean
+	id: ID
+	modified: DeserializableDateTime
+	"Json object of original data"
+	originalData: String
+	"The payment risk rating for the customer given this set of ATB data"
+	paymentRiskRating: RiskScore
+	phone: String
+	"Json Object with Errors from processing"
+	processingErrors: String
+	"Json Object with Warnings from processing"
+	processingWarnings: String
+	sicCode: String
+	terms: String
+	totalDebt: DeserializableFloat
+	trusteeACN: String
+}
+
+"The input object for adding a new BusinessEntity"
+input BusinessEntityInput {
+	"ABN"
+	abn: String
+	"ABR Last Updated"
+	abrLastUpdated: DeserializableDateTime
+	"ACN"
+	acn: String
+	"The entity name sent back in the ACN response"
+	acnEntityName: String
+	"The entity type code sent back in the ACN response"
+	acnEntityTypeCode: String
+	"ACN Last Updated"
+	acnLastUpdated: DeserializableDateTime
+	"Status of the ACN"
+	acnStatus: String
+	address: AddressEntityInput
+	applicationss: [ApplicationEntityInput]
+	atbFiles: [AtbFileEntityInput]
+	created: DeserializableDateTime
+	"The Creditor ID is used in the ATB reports"
+	creditorID: String
+	customerss: [CustomerEntityInput]
+	"DoB field uses for sole traders"
+	dateOfBirth: DeserializableDateTime
+	"Email"
+	email: String
+	"Enabled for Approve"
+	enabledForApprove: DeserializableBoolean
+	"Enabled for PPSR"
+	enabledForPPSR: DeserializableBoolean
+	"Entity Name retrieve from ABN lookup"
+	entityName: String
+	entityStatus: String
+	"Entity Type Code retrieve from ABN lookup"
+	entityTypeCode: String
+	"Entity Type Description retrieve from ABN lookup"
+	entityTypeDescription: String
+	"Is the business of type Finance"
+	finance: DeserializableBoolean
+	"Is the business of a Hire business type"
+	hire: DeserializableBoolean
+	id: ID
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Legacy ID"
+	legacyID: DeserializableInt
+	modified: DeserializableDateTime
+	"Name"
+	name: String
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	"Phone"
+	phone: String
+	primaryOrganisation: OrganisationEntityInput
+	spgss: [SpgEntityInput]
+	"Brief summary of the business"
+	summary: String
+	"Is the business of type Supply Goods and Equipment"
+	supplyGnE: DeserializableBoolean
+	trusteeACN: String
+	"The entity name sent back by the trustee ACN response"
+	trusteeACNEntityName: String
+	"The entity type code for the trustee ACN reponse"
+	trusteeACNEntityTypeCode: String
+	"Trustee ACN Last Updated"
+	trusteeACNLastUpdated: DeserializableDateTime
+	"Trustee ACN Status"
+	trusteeACNStatus: String
+	trusteeName: String
+	"Boolean for determining to use the organisation email instead of the saved one."
+	useOrganisationEmail: DeserializableBoolean
+	users: [BusinessEntityUserInput]
+}
+
+"The input object for adding a new BusinessEntityUser"
+input BusinessEntityUserInput {
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	created: DeserializableDateTime
+	id: ID
+	modified: DeserializableDateTime
+	user: UserEntityInput
+	userId: ID
+}
+
+"The input object for adding a new CreditBureauEntity"
+input CreditBureauEntityInput {
+	created: DeserializableDateTime
+	id: ID
+	modified: DeserializableDateTime
+	"Name"
+	name: String
+	organisations: [OrganisationAuthorisedCreditBureauInput]
+}
+
+"The input object for adding a new CustomerEntity"
+input CustomerEntityInput {
+	"ABN"
+	abn: String
+	"ABN is current indicator"
+	abnActive: DeserializableBoolean
+	"ABR Last Updated"
+	abrLastUpdated: DeserializableDateTime
+	accountNumber: String
+	"Accounts Contact"
+	accountsContact: String
+	"Accounts Phone Number"
+	accountsPhoneNumber: String
+	"ACN"
+	acn: String
+	"The entity name sent back in the ACN response"
+	acnEntityName: String
+	"The entity type code sent back in the ACN response"
+	acnEntityTypeCode: String
+	acnLastUpdated: DeserializableDateTime
+	acnStatus: String
+	"Active Since"
+	activeSince: DeserializableDateTime
+	alaress: [AlaresEntityInput]
+	applicationNumber: String
+	applicationStatus: String
+	atbRecords: [AtbRecordEntityInput]
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	businessName: String
+	created: DeserializableDateTime
+	creditLimit: String
+	"Date of Birth"
+	dateOfBirth: DateOnly
+	"A customer's debtor ID represents the unique identifier used by business entities to represent their customers"
+	debtorID: String
+	"Email"
+	email: String
+	"Entity Name"
+	entityName: String
+	"Entity Status"
+	entityStatus: String
+	"Entity Type Code"
+	entityTypeCode: String
+	"Entity Type Description"
+	entityTypeDescription: String
+	"First Name"
+	firstName: String
+	id: ID
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Last Name"
+	lastName: String
+	"Locality"
+	locality: String
+	modified: DeserializableDateTime
+	"Name for Invoice"
+	nameForInvoice: String
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	"Phone"
+	phone: String
+	physicalAddress: AddressEntityInput
+	postalAddress: AddressEntityInput
+	"Purchasing Officer"
+	purchasingOfficer: String
+	purchasingOfficerEmail: String
+	"Record Updated"
+	recordUpdated: DeserializableDateTime
+	"Registered for GST"
+	registeredForGST: DeserializableBoolean
+	"Statements Contact"
+	statementsContact: String
+	"Statements Email"
+	statementsEmail: String
+	"Tax Invoices Contact"
+	taxInvoicesContact: String
+	"Tax Invoices Email"
+	taxInvoicesEmail: String
+	"Trading terms"
+	tradingTerms: String
+	trusteeACN: String
+	"The entity name sent back by the trustee ACN response"
+	trusteeACNEntityName: String
+	"The entity type code for the trustee ACN reponse"
+	trusteeACNEntityTypeCode: String
+	trusteeACNLastUpdated: DeserializableDateTime
+	trusteeACNStatus: String
+	trusteeName: String
+}
+
+"The input object for adding a new DiscountEntity"
+input DiscountEntityInput {
+	created: DeserializableDateTime
+	discountPercent: DeserializableInt
+	"Discount apply from the moment they are created until their expiration date"
+	expirationDate: DateOnly
+	id: ID
+	modified: DeserializableDateTime
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	"The source of the discount"
+	source: DiscountSource
+}
+
+"The input object for adding a new DocumentEntity"
+input DocumentEntityInput {
+	created: DeserializableDateTime
+	fileId: ID
+	id: ID
+	modified: DeserializableDateTime
+	"Name"
+	name: String
+}
+
+input HasConditionType {
+	conditions: [[WhereExpressionGraph]]
+	negate: Boolean
+	path: String
+}
+
+"The input object for adding a new IndustryCodesEntity"
+input IndustryCodesEntityInput {
+	"Code"
+	code: String
+	created: DeserializableDateTime
+	"Description"
+	description: String
+	id: ID
+	modified: DeserializableDateTime
+	organisationss: [OrganisationEntityInput]
+}
+
+"The input object for adding a new InvoiceEntity"
+input InvoiceEntityInput {
+	created: DeserializableDateTime
+	"Customer Count"
+	customerCount: DeserializableInt
+	"Discount Price"
+	discountPrice: DeserializableFloat
+	"Final Price"
+	finalPrice: DeserializableFloat
+	id: ID
+	"Line items that make up the Final Price"
+	lineItems: String
+	modified: DeserializableDateTime
+	"Monthly Exposure"
+	monthlyExposure: DeserializableFloat
+	"Monthly Price"
+	monthlyPrice: DeserializableFloat
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	"The name of the referral partner that referred this Organisation"
+	referredBy: String
+	"User Count"
+	userCount: DeserializableInt
+	"Using Approve"
+	usingApprove: DeserializableBoolean
+	"Using Monitor"
+	usingMonitor: DeserializableBoolean
+	"Using PPSR"
+	usingPPSR: DeserializableBoolean
+}
+
+"The input object for adding a new MonthlyExposurePricingTierEntity"
+input MonthlyExposurePricingTierEntityInput {
+	created: DeserializableDateTime
+	id: ID
+	"Maximum Monthly Exposure"
+	maximumMonthlyExposure: DeserializableInt
+	modified: DeserializableDateTime
+	"Price"
+	price: DeserializableInt
+}
+
+"The input object for adding a new OptionHowDidYouHearEntity"
+input OptionHowDidYouHearEntityInput {
+	created: DeserializableDateTime
+	id: ID
+	modified: DeserializableDateTime
+	name: String
+}
+
+"The input object for adding a new OptionReferrerCharityEntity"
+input OptionReferrerCharityEntityInput {
+	created: DeserializableDateTime
+	description: String
+	id: ID
+	modified: DeserializableDateTime
+	name: String
+}
+
+input OrderByGraph {
+	"Weather or not the field is descending"
+	descending: Boolean
+	"The field to order by"
+	path: String!
+}
+
+"The input object for adding a new OrganisationAuthorisedCreditBureau"
+input OrganisationAuthorisedCreditBureauInput {
+	authorisedCreditBureau: CreditBureauEntityInput
+	authorisedCreditBureauId: ID
+	created: DeserializableDateTime
+	id: ID
+	modified: DeserializableDateTime
+	organisation: OrganisationEntityInput
+	organisationId: ID
+}
+
+"The input object for adding a new OrganisationEntity"
+input OrganisationEntityInput {
+	"Date the user last accepted terms. If this is prior to the last time the terms were updated, the user may need to accept them again."
+	acceptedterms: DeserializableDateTime
+	"Approve Enabled"
+	approveEnabled: DeserializableBoolean
+	authorisedCreditBureaus: [OrganisationAuthorisedCreditBureauInput]
+	businessEntitys: [BusinessEntityInput]
+	created: DeserializableDateTime
+	"CRiskCo Applicant ID"
+	criskcoApplicantID: String
+	"Customer Column Settings"
+	customerColumnSettings: String
+	"This customer count is used for pricing if the organisation has not added any customers yet in the Monitor platform"
+	customerCount: DeserializableInt
+	customerss: [CustomerEntityInput]
+	discountss: [DiscountEntityInput]
+	howDidYouHearAboutUs: String
+	id: ID
+	industryCodes: IndustryCodesEntityInput
+	industryCodesId: ID
+	"Intel Enabled"
+	intelEnabled: DeserializableBoolean
+	invoices: [InvoiceEntityInput]
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Is the organisation a client"
+	isClient: DeserializableBoolean
+	"Is the organisation a referral partner"
+	isReferralPartner: DeserializableBoolean
+	legacyID: DeserializableInt
+	modified: DeserializableDateTime
+	"This is the current monthly exposure of the organisation"
+	monthlyExposure: DeserializableFloat
+	"PPSR Enabled"
+	ppsrEnabled: DeserializableBoolean
+	primaryBusinessEntity: BusinessEntityInput
+	primaryBusinessEntityId: ID
+	referredRegistrationss: [RegistrationEntityInput]
+	referrerAcceptedTerms: DeserializableBoolean
+	referrerBSB: String
+	"Bank Account Name for the referral partner"
+	referrerBankAccountName: String
+	referrerBankAccountNumber: String
+	"The mode which they would like to receive commission"
+	referrerBenefitType: ReferrerBenefitType
+	"Other Business Type Description"
+	referrerBusinessOther: String
+	"What does your business do"
+	referrerBusinessType: ReferrerBusinessType
+	"The name of the charity they would like to receive their commission"
+	referrerCharityName: String
+	"How often does the organisaion receive the commission"
+	referrerCommissionFrequency: ReferrerCommissionFrequency
+	"The discount applied to referred clients from this organisation"
+	referrerCommissionPercent: DeserializableInt
+	registration: RegistrationEntityInput
+	users: [UserEntityInput]
+}
+
+"The input object for adding a new RegistrationEntity"
+input RegistrationEntityInput {
+	"Date registration was finished. Null if registration is still pending."
+	completedDate: DeserializableDateTime
+	created: DeserializableDateTime
+	createdOrganisation: OrganisationEntityInput
+	createdOrganisationId: ID
+	createdUser: UserEntityInput
+	createdUserId: ID
+	id: ID
+	modified: DeserializableDateTime
+	"Organisation Name"
+	organisationName: String
+	"Products"
+	products: String
+	"The email of the person that the referral link was created for"
+	refereeEmail: String
+	"The name of the person that the referral link was created for"
+	refereeName: String
+	"JSON field to hold information for the referral partner registration"
+	referralData: String
+	referralStatus: RegistrationStatus
+	referringOrganisation: OrganisationEntityInput
+	referringOrganisationId: ID
+	referringUser: UserEntityInput
+	referringUserId: ID
+	"JSON field used to hold contents of various questions"
+	registrationData: String
+	registrationFiless: [RegistrationFileEntityInput]
+	"The actual start date of the registration, as registration can be created before actually being started"
+	startDate: DateOnly
+	"Status"
+	status: RegistrationStatus
+	"User Email"
+	userEmail: String
+	"User Name"
+	userName: String
+}
+
+"The input object for adding a new RegistrationFileEntity"
+input RegistrationFileEntityInput {
+	created: DeserializableDateTime
+	"File"
+	fileId: ID
+	id: ID
+	modified: DeserializableDateTime
+	registration: RegistrationEntityInput
+	registrationId: ID
+}
+
+"The input object for adding a new SpgEntity"
+input SpgEntityInput {
+	accessCode: String
+	businessEntity: BusinessEntityInput
+	businessEntityId: ID
+	contactName: String
+	created: DeserializableDateTime
+	email: String
+	id: ID
+	isActive: DeserializableBoolean
+	legacyID: String
+	modified: DeserializableDateTime
+	"Comma seperated string of organisation numbers"
+	organisationalNumbers: String
+	phone: String
+	spgNumber: String
+}
+
+"The input object for adding a new TrustEntityCodesEntity"
+input TrustEntityCodesEntityInput {
+	created: DeserializableDateTime
+	"The entity code"
+	entityCode: String
+	id: ID
+	modified: DeserializableDateTime
+}
+
+"The input object for creating a new UserEntity"
+input UserEntityCreateInput {
+	atbFiles: [AtbFileEntityInput]
+	businessEntitys: [BusinessEntityUserInput]
+	"Can Access Approve"
+	canAccessApprove: DeserializableBoolean
+	"Can Access Intel"
+	canAccessIntel: DeserializableBoolean
+	"Can Access PPSR"
+	canAccessPPSR: DeserializableBoolean
+	created: DeserializableDateTime
+	email: String
+	"First Name"
+	firstName: String
+	id: ID
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Last Name"
+	lastName: String
+	legacyID: DeserializableInt
+	modified: DeserializableDateTime
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	password: String
+	"Permission Overrides"
+	permissionOverrides: String
+	"Phone"
+	phone: String
+	referredRegistrationss: [RegistrationEntityInput]
+	registration: RegistrationEntityInput
+	"User Type"
+	userType: UserType
+}
+
+"The input object for adding a new UserEntity"
+input UserEntityInput {
+	atbFiles: [AtbFileEntityInput]
+	businessEntitys: [BusinessEntityUserInput]
+	"Can Access Approve"
+	canAccessApprove: DeserializableBoolean
+	"Can Access Intel"
+	canAccessIntel: DeserializableBoolean
+	"Can Access PPSR"
+	canAccessPPSR: DeserializableBoolean
+	created: DeserializableDateTime
+	"First Name"
+	firstName: String
+	id: ID
+	"Is Active"
+	isActive: DeserializableBoolean
+	"Last Name"
+	lastName: String
+	legacyID: DeserializableInt
+	modified: DeserializableDateTime
+	organisation: OrganisationEntityInput
+	organisationId: ID
+	"Permission Overrides"
+	permissionOverrides: String
+	"Phone"
+	phone: String
+	referredRegistrationss: [RegistrationEntityInput]
+	registration: RegistrationEntityInput
+	"User Type"
+	userType: UserType
+}
+
+input WhereExpressionGraph {
+	case: StringComparison
+	comparison: Comparison
+	negate: Boolean
+	path: String
+	value: [String]
+}
